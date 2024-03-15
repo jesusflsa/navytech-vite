@@ -1,4 +1,5 @@
 import AboutUs from "./sections/AboutUs";
+import Blog from "./sections/Blog";
 import Hero from "./sections/Hero";
 import NavigationBar from "./sections/NavigationBar";
 import Portfolio from "./sections/Portfolio";
@@ -17,6 +18,7 @@ function App() {
         <Portfolio />
         <AboutUs />
         <Testimonial />
+        <Blog />
       </main>
     </>
   );
