@@ -4,6 +4,7 @@ import NavigationBar from "./sections/NavigationBar";
 import Portfolio from "./sections/Portfolio";
 import Services from "./sections/Services";
 import Sponsors from "./sections/Sponsors";
+import Testimonial from "./sections/Testimonial";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Services />
         <Portfolio />
         <AboutUs />
+        <Testimonial />
       </main>
     </>
   );
