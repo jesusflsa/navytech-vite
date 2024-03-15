@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+import SectionTitle from "../components/SectionTitle";
 import portfolioImages from "../const/portfolio-images";
 
 function Portfolio() {
@@ -6,14 +8,10 @@ function Portfolio() {
       id="portfolio"
       className="bg-primary text-primary flex flex-col items-center p-20 gap-20"
     >
-      <div className="text-center">
-        <p className="font-light text-lg">Portfolio</p>
-        <h2 className="text-4xl">Our previous works</h2>
-      </div>
-
+      <SectionTitle title="Portfolio" subtitle="Our previous works" />
       <div className="grid grid-cols-3 gap-8">
         {portfolioImages.map((image) => (
-          <div className="overflow-hidden select-none">
+          <div className="overflow-hidden select-none ">
             <img
               className="aspect-square object-cover object-center w-full h-full filter grayscale hover:grayscale-0 transition-all"
               src={`/portfolio/${image.image}`}
@@ -22,6 +20,7 @@ function Portfolio() {
           </div>
         ))}
       </div>
+      <Button>View more</Button>
     </section>
   );
 }

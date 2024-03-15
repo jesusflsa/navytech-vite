@@ -1,32 +1,32 @@
 export default [
   {
-    name: "Aweber",
+    name: "red and black samsung android smartphone beside white earbuds",
     url: "",
-    image: "aweber-image.webp",
+    image: "red-and-black samsung.avif",
   },
   {
-    name: "Coach Hub",
+    name: "photo of person using MacBook",
     url: "",
-    image: "coachhub-image.webp",
+    image: "person-using-macbook.avif",
   },
   {
-    name: "Edu Path",
+    name: "black iphone 4 on brown wooden table",
     url: "",
-    image: "edupath-image.webp",
+    image: "black-iphone-4.avif",
   },
   {
-    name: "Shopify",
+    name: "person holding black remote control",
     url: "",
-    image: "shopify-image.webp",
+    image: "person-holding-black-remote-control.avif",
   },
   {
-    name: "Tier",
+    name: "person clicking Apple Watch smartwatch",
     url: "",
-    image: "tier-image.webp",
+    image: "person-clicking-apple-watch-smartwatch.avif",
   },
   {
-    name: "Overpass",
+    name: "space gray iPhone 6 turned on beside pen and headphones on top of table",
     url: "",
-    image: "overpass-image.webp",
-  }
+    image: "iphone-6-turned-on-beside-pen.avif",
+  },
 ];

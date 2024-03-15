@@ -1,3 +1,4 @@
+import AboutUs from "./sections/AboutUs";
 import Hero from "./sections/Hero";
 import NavigationBar from "./sections/NavigationBar";
 import Portfolio from "./sections/Portfolio";
@@ -13,6 +14,7 @@ function App() {
         <Sponsors />
         <Services />
         <Portfolio />
+        <AboutUs />
       </main>
     </>
   );

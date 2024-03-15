@@ -1,4 +1,4 @@
-import Arrow from "../arrow.tsx";
+import Arrow from "./arrow.tsx";
 
 interface ServiceCardProps {
   service: {
