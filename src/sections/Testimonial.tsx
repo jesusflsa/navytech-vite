@@ -4,7 +4,7 @@ import testimonial from "../const/testimonial";
 
 function Testimonial() {
   return (
-    <section className="p-20 flex flex-col bg-[#F0F5FF] gap-20">
+    <section id="testimonial" className="p-20 flex flex-col bg-[#F0F5FF] gap-20">
       <SectionTitle title="Testimonial" subtitle="What our clients say" />
       <div className="flex items-center justify-center gap-8">
         {testimonial.map((testimonial, index) => (
