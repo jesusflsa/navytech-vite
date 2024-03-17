@@ -1,5 +1,6 @@
 import AboutUs from "./sections/AboutUs";
 import Blog from "./sections/Blog";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import NavigationBar from "./sections/NavigationBar";
 import Portfolio from "./sections/Portfolio";
@@ -20,6 +21,7 @@ function App() {
         <Testimonial />
         <Blog />
       </main>
+      <Footer />
     </>
   );
 }
